@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9173A5EE2BACC5E70066F360 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 9173A5ED2BACC5E70066F360 /* RealityKitContent */; };
+		9173A5F02BACC5E70066F360 /* I_Talk_visionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A5EF2BACC5E70066F360 /* I_Talk_visionOSApp.swift */; };
+		9173A5F22BACC5E70066F360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A5F12BACC5E70066F360 /* ContentView.swift */; };
+		9173A5F42BACC5E70066F360 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A5F32BACC5E70066F360 /* ImmersiveView.swift */; };
+		9173A5F62BACC5E90066F360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9173A5F52BACC5E90066F360 /* Assets.xcassets */; };
+		9173A5F92BACC5E90066F360 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9173A5F82BACC5E90066F360 /* Preview Assets.xcassets */; };
+		9173A6042BACC5EA0066F360 /* I_Talk_visionOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A6032BACC5EA0066F360 /* I_Talk_visionOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9173A6002BACC5EA0066F360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9173A5E02BACC5E70066F360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9173A5E72BACC5E70066F360;
+			remoteInfo = "I-Talk_visionOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9173A5E82BACC5E70066F360 /* I-Talk_visionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I-Talk_visionOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9173A5EC2BACC5E70066F360 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		9173A5EF2BACC5E70066F360 /* I_Talk_visionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Talk_visionOSApp.swift; sourceTree = "<group>"; };
+		9173A5F12BACC5E70066F360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9173A5F32BACC5E70066F360 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		9173A5F52BACC5E90066F360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9173A5F82BACC5E90066F360 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9173A5FA2BACC5E90066F360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9173A5FF2BACC5EA0066F360 /* I-Talk_visionOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I-Talk_visionOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9173A6032BACC5EA0066F360 /* I_Talk_visionOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Talk_visionOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9173A5E52BACC5E70066F360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9173A5EE2BACC5E70066F360 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9173A5FC2BACC5EA0066F360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9173A5DF2BACC5E70066F360 = {
+			isa = PBXGroup;
+			children = (
+				9173A5EA2BACC5E70066F360 /* I-Talk_visionOS */,
+				9173A5EB2BACC5E70066F360 /* Packages */,
+				9173A6022BACC5EA0066F360 /* I-Talk_visionOSTests */,
+				9173A5E92BACC5E70066F360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9173A5E92BACC5E70066F360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9173A5E82BACC5E70066F360 /* I-Talk_visionOS.app */,
+				9173A5FF2BACC5EA0066F360 /* I-Talk_visionOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9173A5EA2BACC5E70066F360 /* I-Talk_visionOS */ = {
+			isa = PBXGroup;
+			children = (
+				9173A5EF2BACC5E70066F360 /* I_Talk_visionOSApp.swift */,
+				9173A5F12BACC5E70066F360 /* ContentView.swift */,
+				9173A5F32BACC5E70066F360 /* ImmersiveView.swift */,
+				9173A5F52BACC5E90066F360 /* Assets.xcassets */,
+				9173A5FA2BACC5E90066F360 /* Info.plist */,
+				9173A5F72BACC5E90066F360 /* Preview Content */,
+			);
+			path = "I-Talk_visionOS";
+			sourceTree = "<group>";
+		};
+		9173A5EB2BACC5E70066F360 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				9173A5EC2BACC5E70066F360 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		9173A5F72BACC5E90066F360 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9173A5F82BACC5E90066F360 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9173A6022BACC5EA0066F360 /* I-Talk_visionOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9173A6032BACC5EA0066F360 /* I_Talk_visionOSTests.swift */,
+			);
+			path = "I-Talk_visionOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9173A5E72BACC5E70066F360 /* I-Talk_visionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9173A6072BACC5EA0066F360 /* Build configuration list for PBXNativeTarget "I-Talk_visionOS" */;
+			buildPhases = (
+				9173A5E42BACC5E70066F360 /* Sources */,
+				9173A5E52BACC5E70066F360 /* Frameworks */,
+				9173A5E62BACC5E70066F360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I-Talk_visionOS";
+			packageProductDependencies = (
+				9173A5ED2BACC5E70066F360 /* RealityKitContent */,
+			);
+			productName = "I-Talk_visionOS";
+			productReference = 9173A5E82BACC5E70066F360 /* I-Talk_visionOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9173A5FE2BACC5EA0066F360 /* I-Talk_visionOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9173A60A2BACC5EA0066F360 /* Build configuration list for PBXNativeTarget "I-Talk_visionOSTests" */;
+			buildPhases = (
+				9173A5FB2BACC5EA0066F360 /* Sources */,
+				9173A5FC2BACC5EA0066F360 /* Frameworks */,
+				9173A5FD2BACC5EA0066F360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9173A6012BACC5EA0066F360 /* PBXTargetDependency */,
+			);
+			name = "I-Talk_visionOSTests";
+			productName = "I-Talk_visionOSTests";
+			productReference = 9173A5FF2BACC5EA0066F360 /* I-Talk_visionOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9173A5E02BACC5E70066F360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9173A5E72BACC5E70066F360 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9173A5FE2BACC5EA0066F360 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9173A5E72BACC5E70066F360;
+					};
+				};
+			};
+			buildConfigurationList = 9173A5E32BACC5E70066F360 /* Build configuration list for PBXProject "I-Talk_visionOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9173A5DF2BACC5E70066F360;
+			productRefGroup = 9173A5E92BACC5E70066F360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9173A5E72BACC5E70066F360 /* I-Talk_visionOS */,
+				9173A5FE2BACC5EA0066F360 /* I-Talk_visionOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9173A5E62BACC5E70066F360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9173A5F92BACC5E90066F360 /* Preview Assets.xcassets in Resources */,
+				9173A5F62BACC5E90066F360 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9173A5FD2BACC5EA0066F360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9173A5E42BACC5E70066F360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9173A5F22BACC5E70066F360 /* ContentView.swift in Sources */,
+				9173A5F02BACC5E70066F360 /* I_Talk_visionOSApp.swift in Sources */,
+				9173A5F42BACC5E70066F360 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9173A5FB2BACC5EA0066F360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9173A6042BACC5EA0066F360 /* I_Talk_visionOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9173A6012BACC5EA0066F360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9173A5E72BACC5E70066F360 /* I-Talk_visionOS */;
+			targetProxy = 9173A6002BACC5EA0066F360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9173A6052BACC5EA0066F360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		9173A6062BACC5EA0066F360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		9173A6082BACC5EA0066F360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"I-Talk_visionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 3832828XZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.I-Talk-visionOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		9173A6092BACC5EA0066F360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"I-Talk_visionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 3832828XZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.I-Talk-visionOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		9173A60B2BACC5EA0066F360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3832828XZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.I-Talk-visionOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I-Talk_visionOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I-Talk_visionOS";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		9173A60C2BACC5EA0066F360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3832828XZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.I-Talk-visionOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I-Talk_visionOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I-Talk_visionOS";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9173A5E32BACC5E70066F360 /* Build configuration list for PBXProject "I-Talk_visionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9173A6052BACC5EA0066F360 /* Debug */,
+				9173A6062BACC5EA0066F360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9173A6072BACC5EA0066F360 /* Build configuration list for PBXNativeTarget "I-Talk_visionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9173A6082BACC5EA0066F360 /* Debug */,
+				9173A6092BACC5EA0066F360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9173A60A2BACC5EA0066F360 /* Build configuration list for PBXNativeTarget "I-Talk_visionOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9173A60B2BACC5EA0066F360 /* Debug */,
+				9173A60C2BACC5EA0066F360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9173A5ED2BACC5E70066F360 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9173A5E02BACC5E70066F360 /* Project object */;
+}
