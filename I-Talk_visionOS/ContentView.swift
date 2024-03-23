@@ -9,46 +9,96 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
+
+public class language: ObservableObject{
+    var languageSett: Bool = true
+}
+
+
 struct ContentView: View {
 
-    @State private var showImmersiveSpace = false
-    @State private var immersiveSpaceIsShown = false
-
+    
+   
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
 
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-
-            Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
-                .font(.title)
-                .frame(width: 360)
-                .padding(24)
-                .glassBackgroundEffect()
-        }
-        .padding()
-        .onChange(of: showImmersiveSpace) { _, newValue in
-            Task {
-                if newValue {
-                    switch await openImmersiveSpace(id: "ImmersiveSpace") {
-                    case .opened:
-                        immersiveSpaceIsShown = true
-                    case .error, .userCancelled:
-                        fallthrough
-                    @unknown default:
-                        immersiveSpaceIsShown = false
-                        showImmersiveSpace = false
-                    }
-                } else if immersiveSpaceIsShown {
-                    await dismissImmersiveSpace()
-                    immersiveSpaceIsShown = false
+        NavigationStack{
+            ZStack{
+                Color.yellow
+                    .opacity(0.4)
+                    .ignoresSafeArea()
+            
+            VStack{
+                Text("I - Talk")
+                    .font(.system(size:120, weight: .bold, design: .rounded))
+        
+                
+                
+                NavigationLink(destination:alphabetPract()){
+                    
+                    Capsule()
+                        .frame(maxWidth: .infinity, maxHeight: 190, alignment: .center)
+                        .padding(.horizontal, 60)
+                        .padding(.vertical,25)
+                        .foregroundColor(.red)
+                        .overlay(
+                            HStack(){
+                                Text("1.").foregroundStyle(Color.white).bold()
+                                    
+                                    .font(.system(size: 90))
+            
+                                HStack{
+                                    Text("A").foregroundColor(.green).bold()
+                                    Text("B").foregroundColor(.blue).bold()
+                                    Text("C").foregroundColor(.yellow).bold()
+                                }.font(.system(size:90))
+                                    .padding(100)
+                                
+                            }.font(.system(size:50))
+                        )
+                    
+                }
+                
+                NavigationLink(destination:WordsAndEmoji()){
+                    Capsule()
+                        .frame(maxWidth: .infinity, maxHeight: 190)
+                        .padding(.horizontal, 60)
+                        .padding(.vertical,25)
+                        .foregroundColor(.green)
+                        .overlay(
+                            HStack{
+                                Text("2.").foregroundStyle(Color.white).bold()
+                                    
+                                    
+                                Text("😁👈🔊").foregroundColor(.white).bold()
+                                    .padding(.horizontal,50)
+                                    
+                                
+                                
+                            }.font(.system(size:90))
+                                .scaledToFit()
+                        )
+                }
+                
+                NavigationLink(destination:Pract1()){
+                    Capsule()
+                        .frame(maxWidth: .infinity, maxHeight: 190)
+                        .padding(.horizontal, 60)
+                        .padding(.vertical,25)
+                        .foregroundColor(.blue)
+                        .overlay(
+                            HStack{
+                                Text("3.").foregroundStyle(Color.white).bold()
+                                Text("👂❓✅").foregroundColor(.white).bold()
+                                .padding(.horizontal,50)
+                                
+                            }.font(.system(size:90))
+                        )
                 }
             }
         }
+        }.navigationBarHidden(true)
     }
 }
 

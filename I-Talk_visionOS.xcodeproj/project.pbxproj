@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91508B192BAD1A070008DE34 /* Pract1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91508B182BAD1A070008DE34 /* Pract1.swift */; };
+		91508B1B2BAD1A120008DE34 /* Pract2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91508B1A2BAD1A120008DE34 /* Pract2.swift */; };
+		91508B1D2BAD1A180008DE34 /* Pract3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91508B1C2BAD1A180008DE34 /* Pract3.swift */; };
+		91508B1F2BAD1A220008DE34 /* Pract4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91508B1E2BAD1A220008DE34 /* Pract4.swift */; };
+		91508B212BAD1A2B0008DE34 /* Pract5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91508B202BAD1A2B0008DE34 /* Pract5.swift */; };
+		91508B232BAD1A320008DE34 /* Pract6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91508B222BAD1A320008DE34 /* Pract6.swift */; };
 		9173A5EE2BACC5E70066F360 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 9173A5ED2BACC5E70066F360 /* RealityKitContent */; };
 		9173A5F02BACC5E70066F360 /* I_Talk_visionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A5EF2BACC5E70066F360 /* I_Talk_visionOSApp.swift */; };
 		9173A5F22BACC5E70066F360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A5F12BACC5E70066F360 /* ContentView.swift */; };
@@ -14,6 +20,8 @@
 		9173A5F62BACC5E90066F360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9173A5F52BACC5E90066F360 /* Assets.xcassets */; };
 		9173A5F92BACC5E90066F360 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9173A5F82BACC5E90066F360 /* Preview Assets.xcassets */; };
 		9173A6042BACC5EA0066F360 /* I_Talk_visionOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A6032BACC5EA0066F360 /* I_Talk_visionOSTests.swift */; };
+		9173A60E2BACCBBD0066F360 /* alphabetPract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A60D2BACCBBD0066F360 /* alphabetPract.swift */; };
+		9173A6102BACD2A80066F360 /* WordsAndEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A60F2BACD2A80066F360 /* WordsAndEmoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91508B182BAD1A070008DE34 /* Pract1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract1.swift; sourceTree = "<group>"; };
+		91508B1A2BAD1A120008DE34 /* Pract2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract2.swift; sourceTree = "<group>"; };
+		91508B1C2BAD1A180008DE34 /* Pract3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract3.swift; sourceTree = "<group>"; };
+		91508B1E2BAD1A220008DE34 /* Pract4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract4.swift; sourceTree = "<group>"; };
+		91508B202BAD1A2B0008DE34 /* Pract5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract5.swift; sourceTree = "<group>"; };
+		91508B222BAD1A320008DE34 /* Pract6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pract6.swift; sourceTree = "<group>"; };
 		9173A5E82BACC5E70066F360 /* I-Talk_visionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I-Talk_visionOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9173A5EC2BACC5E70066F360 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		9173A5EF2BACC5E70066F360 /* I_Talk_visionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Talk_visionOSApp.swift; sourceTree = "<group>"; };
@@ -37,6 +51,8 @@
 		9173A5FA2BACC5E90066F360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9173A5FF2BACC5EA0066F360 /* I-Talk_visionOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I-Talk_visionOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9173A6032BACC5EA0066F360 /* I_Talk_visionOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Talk_visionOSTests.swift; sourceTree = "<group>"; };
+		9173A60D2BACCBBD0066F360 /* alphabetPract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alphabetPract.swift; sourceTree = "<group>"; };
+		9173A60F2BACD2A80066F360 /* WordsAndEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsAndEmoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +98,15 @@
 			children = (
 				9173A5EF2BACC5E70066F360 /* I_Talk_visionOSApp.swift */,
 				9173A5F12BACC5E70066F360 /* ContentView.swift */,
+				91508B182BAD1A070008DE34 /* Pract1.swift */,
+				91508B1A2BAD1A120008DE34 /* Pract2.swift */,
+				91508B1C2BAD1A180008DE34 /* Pract3.swift */,
+				91508B1E2BAD1A220008DE34 /* Pract4.swift */,
+				91508B202BAD1A2B0008DE34 /* Pract5.swift */,
+				91508B222BAD1A320008DE34 /* Pract6.swift */,
 				9173A5F32BACC5E70066F360 /* ImmersiveView.swift */,
+				9173A60D2BACCBBD0066F360 /* alphabetPract.swift */,
+				9173A60F2BACD2A80066F360 /* WordsAndEmoji.swift */,
 				9173A5F52BACC5E90066F360 /* Assets.xcassets */,
 				9173A5FA2BACC5E90066F360 /* Info.plist */,
 				9173A5F72BACC5E90066F360 /* Preview Content */,
@@ -217,9 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91508B192BAD1A070008DE34 /* Pract1.swift in Sources */,
 				9173A5F22BACC5E70066F360 /* ContentView.swift in Sources */,
+				9173A60E2BACCBBD0066F360 /* alphabetPract.swift in Sources */,
+				9173A6102BACD2A80066F360 /* WordsAndEmoji.swift in Sources */,
+				91508B212BAD1A2B0008DE34 /* Pract5.swift in Sources */,
+				91508B1D2BAD1A180008DE34 /* Pract3.swift in Sources */,
 				9173A5F02BACC5E70066F360 /* I_Talk_visionOSApp.swift in Sources */,
+				91508B1F2BAD1A220008DE34 /* Pract4.swift in Sources */,
+				91508B1B2BAD1A120008DE34 /* Pract2.swift in Sources */,
 				9173A5F42BACC5E70066F360 /* ImmersiveView.swift in Sources */,
+				91508B232BAD1A320008DE34 /* Pract6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
